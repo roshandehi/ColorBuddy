@@ -6,9 +6,9 @@ var app = express();
 var alexaApp = new alexa.app("colorbuddy");
 
 var colors = {
-    "blue": "#0000ff",
-    "red": "#ff0000",
-    "green": "#00ff00"
+    "blue": "Sky is blue",
+    "red": "Roses are red",
+    "green": "grass is green"
 };
 
 alexaApp.express({
